@@ -51,7 +51,7 @@ class Pist {
         for(let i=0; i < this.carNumber; i++) {
             let line = $(`<div id="car_${i}" class="line">`);
             $(".pist").append(line);
-            console.log('car race', this.carNumber);
+            // console.log('car race', this.carNumber);
         }
     }
 
